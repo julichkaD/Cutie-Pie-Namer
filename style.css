@@ -7,8 +7,10 @@ header {
   color: rgb(16, 16, 203);
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
 }
-main {
+.container {
+  display: flex;
   max-width: 1200px;
   height: 680px;
   border-radius: 10px;
@@ -16,11 +18,11 @@ main {
   background-color: rgb(71, 115, 191);
 }
 .form {
-  padding: 60px 100px;
+  padding: 40px 70px;
 }
 
 #search {
-  padding: 20px 90px;
+  padding: 20px 70px;
   border-radius: 8px;
   font-size: larger;
   border: 0ch;
@@ -33,8 +35,18 @@ img {
   padding: 15px;
   border-radius: 8px;
   border: 0ch;
-  margin-left: 25px;
+  margin-left: 10px;
   font-size: larger;
+}
+#name {
+  font-size: 60px;
+  color: azure;
+}
+p {
+  line-height: 1.8em;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aliceblue;
 }
 
 footer {
