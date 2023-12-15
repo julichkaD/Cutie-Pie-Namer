@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(243, 176, 243);
+}
+
+header {
+  margin-top: 10px;
+  color: rgb(16, 16, 203);
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main {
+  max-width: 1200px;
+  height: 680px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgb(71, 115, 191);
+}
+.form {
+  padding: 60px 100px;
+}
+
+#search {
+  padding: 20px 90px;
+  border-radius: 8px;
+  font-size: larger;
+  border: 0ch;
+}
+
+img {
+  width: 600px;
+}
+#submit {
+  padding: 15px;
+  border-radius: 8px;
+  border: 0ch;
+  margin-left: 25px;
+  font-size: larger;
+}
+
+footer {
+  margin-top: 10px;
+  text-align: center;
+  color: purple;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
