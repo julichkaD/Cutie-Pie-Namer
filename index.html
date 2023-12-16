@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>CutiePieNamer</title>
 </head>
 
@@ -18,8 +19,8 @@
 
 
             <form class="form">
-                <input type="text" name="search" id="search" placeholder="Enter baby's name 👶" autofocus required
-                    autocomplete="off">
+                <input type="text" name="search" placeholder="Enter a cutie pie name" autofocus required
+                    autocomplete="off" id="user-instructions" />
                 <input type="submit" id="submit" />
             </form>
             <img src="image/babyboy.png"
@@ -27,17 +28,16 @@
         </div>
 
         <div class="name-meaning">
-            <h1 id="name">Leo</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas nostrum repudiandae fuga reiciendis
-                mollitia ex tenetur dolorum veritatis soluta illo culpa debitis, reprehenderit dolores amet cumque velit
-                aperiam delectus quam.lorem</p>
+            <h1 id="name"></h1>
+            <p id="response">
+            </p>
         </div>
     </div>
 
 
-    <footer>This project was coded by <a href="https://github.com/julichkaD">Julichka,</a> is open-sourced on <a
-            href="https://github.com/julichkaD/Cutie-Pie-Namer.git">GitHub </a>and hosted on<a
-            href="http://cutie-pie-namer.netlify.app"> Netlify </a></footer>
+    <footer>This project was coded by <a href="https://github.com/julichkaD">Julichka</a> and is open-sourced on <a
+            href="https://github.com/julichkaD/Cutie-Pie-Namer.git">GitHub</a> and hosted on <a
+            href="http://cutie-pie-namer.netlify.app">Netlify</a></footer>
     <script src="script.js"></script>
 </body>
 
