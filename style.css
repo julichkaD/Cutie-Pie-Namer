@@ -50,20 +50,23 @@ img {
   background-color: azure;
 }
 #name {
-  font-size: 60px;
+  font-size: 50px;
   color: azure;
   margin-left: 150px;
 }
 p {
-  line-height: 1.6em;
-  font-size: 18px;
+  line-height: 1.5em;
+  font-size: 17px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: aliceblue;
   text-indent: 30px;
   padding-right: 40px;
+  text-overflow: ellipsis;
+  
 }
+
 a {
-  color: blue
+  color: blue;
 }
 a:hover {
   color: darkblue;
@@ -75,4 +78,13 @@ footer {
   color: rgb(167, 30, 167);
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
+}
+.generating {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
