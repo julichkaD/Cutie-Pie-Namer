@@ -1,4 +1,5 @@
 function generateMeaning(response) {
+   
     new Typewriter("#response", {
       strings: response.data.answer,
       autoStart: true,
@@ -13,10 +14,16 @@ function generateName(event) {
     event.preventDefault();
 
 let instructionInput = document.querySelector("#user-instructions");
+ let generateAnswer = document.querySelector("#response");
+ generateAnswer.innerHTML = '<div class="generating">GENERATING INFORMATION...PLEASE BE PATIENT...</div>'
 let name = document.querySelector("#name");
 name.innerHTML =
   instructionInput.value.charAt(0).toUpperCase() +
   instructionInput.value.slice(1);
+     
+
+
+
  let apiKey = "b58a2f047af526to478d86be21c3e75d";
  let context= "Nice explanation of what certain human name means. Make sure to use user instructions."
  let prompt = `User instructions: generate name meaning ${instructionInput.value}`; 
